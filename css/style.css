@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Nanum Gothic Coding';
+}
+
+body {
+  height: 100vh;
+  background-color: #f6f7eb;
+}
+
+.wrap {
+  display: flex;
+}
+.cont-1 {
+  margin: 1rem 1rem;
+  height: 90rem;
+  /* background: no-repeat top center/20% url('blog.svg'); */
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.cont-1:hover {
+  transition: all 0.5s;
+  margin: 5rem 2rem;
+  border-top: 6px solid;
+  border-bottom: 6px solid;
+  border-left: 6px double;
+  border-right: 6px double;
+}
+
+.cont-1 p {
+  border-top: 2px black solid;
+  border-bottom: 2px solid;
+  font-size: 2rem;
+  padding: 2rem 1rem;
+  margin: 2rem 2rem;
+}
+
+.cont-1 p:hover {
+  transition: all 1s;
+  border-left: 8px double;
+  border-right: 8px double;
+  border-top: 6px solid;
+  border-bottom: 6px solid;
+}
+
+.cont-1 img {
+  /* display: block; */
+  width: 30%;
+  height: 20%;
+}
+
+/* .cont-2 {
+  margin: 5rem 1rem;
+  height: 80rem;
+  display: flex;
+  flex-flow: row wrap;
+  height: 80rem;
+  /* background: no-repeat center center/contain
+    url('https://cdn.pixabay.com/photo/2016/10/21/20/32/love-1759137__480.png'); */
+/* background: no-repeat center center/contain
+    url('https://i.pinimg.com/474x/4e/ec/f3/4eecf3a461f0731d18d4f00133d01b15--heath-ledger-joker-dark-knight.jpg'); */
+/* background: no-repeat center center/contain
+    url('https://i.pinimg.com/474x/e8/8b/d5/e88bd5eb5a3cf57b93eac5770c830e57.jpg'); */
+
+/* flex: 2; */
+/* }  */
+
+/* .cont-2:hover {
+  transition: all 0.8s;
+  border-top: 6px double;
+  border-bottom: 6px double;
+  border-left: 5px solid;
+  border-right: 5px solid;
+}
+
+.cont-2 img {
+  width: 100%;
+  height: 100%;
+  padding: 7rem 8rem;
+}  */
+
+.passed {
+  text-align: center;
+}
+
+.generate {
+  line-height: 1.5;
+}
+
+/* input[type='text'] {
+  padding: 0.8rem 0;
+  width: 20%;
+  margin: 2rem 0;
+  text-align: center;
+  background-color: #f6f7eb;
+  font-family: 'Nanum Gothic Coding';
+  border: none;
+}
+
+input[type='text']:hover {
+  transition: all 1s;
+  opacity: 0.7;
+  font-weight: 900;
+} */
+
+#type {
+  padding: 0.8rem 0;
+  width: 50%;
+  margin: 2rem 0;
+  text-align: center;
+  background-color: #f6f7eb;
+  font-family: 'Nanum Gothic Coding';
+  border: none;
+}
+
+input[type='button'] {
+  padding: 0.6rem 0;
+  width: 20%;
+  margin: 1rem 0;
+  border: 2px solid;
+  font-size: 1.8rem;
+  background-color: #f6f7eb;
+  font-family: 'Nanum Gothic Coding';
+}
+
+input[type='button']:hover {
+  transition: all 1s;
+  border-left: 8px double;
+  border-right: 8px double;
+  border-top: 6px solid;
+  border-bottom: 6px solid;
+}
+
+.foot {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.foot a {
+  text-decoration: none;
+  color: inherit;
+}
